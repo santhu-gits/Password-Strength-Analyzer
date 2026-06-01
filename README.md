@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Password Strength Analyzer
 
 ## Overview
@@ -39,3 +40,7 @@ The project also uses SHA-256 cryptographic hashing and SQLite database storage 
 * Secure Storage
 * Entropy Analysis
 * Password Reuse Prevention
+=======
+# Password-Strength-Analyzer
+Python-based Password Strength Analyzer with entropy analysis, SHA-256 hashing, and SQLite password reuse detection.
+>>>>>>> ad18c658aeb0d367be0fa84fda6d71b4ed1ef739
