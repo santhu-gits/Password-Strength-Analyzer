@@ -48,6 +48,4 @@ Password Strength Analyzer is a Python-based cybersecurity project that evaluate
 
 python main.py
 
-## Author
 
-T.Santhu Bhoomika 
