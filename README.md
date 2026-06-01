@@ -1,46 +1,53 @@
-<<<<<<< HEAD
 # Password Strength Analyzer
 
 ## Overview
 
-Password Strength Analyzer is a cybersecurity-focused Python project that evaluates the strength of user-entered passwords.
-
-The system checks:
-
-* Password length
-* Character complexity
-* Common password usage
-* Password uniqueness
-* Password entropy
-* Password reuse
-
-The project also uses SHA-256 cryptographic hashing and SQLite database storage to securely manage password records.
+Password Strength Analyzer is a Python-based cybersecurity project that evaluates the strength of user-entered passwords. The tool analyzes password length, complexity, uniqueness, entropy, and security while demonstrating cryptographic hashing and secure password storage techniques.
 
 ## Features
 
-* Password strength analysis
-* Common password detection
-* Entropy calculation
-* Password suggestion generation
-* SHA-256 hashing
-* SQLite database integration
-* Password reuse prevention
+* Password Length Analysis
+* Password Complexity Checking
+* Common Password Detection
+* Password Uniqueness Verification
+* Password Entropy Calculation
+* Strong Password Suggestions
+* SHA-256 Password Hashing
+* SQLite Database Integration
+* Password Reuse Detection
 
 ## Technologies Used
 
-* Python
-* SQLite
-* SHA-256
+* Python 3
+* SQLite3
+* SHA-256 Cryptographic Hashing
 * Regular Expressions (re)
+
+## Project Structure
+
+* main.py — Main application
+* analyzer.py — Password analysis functions
+* password_generator.py — Password suggestion generator
+* hash_utils.py — SHA-256 hashing utilities
+* database.py — SQLite database operations
+* common_passwords.txt — Common password dataset
 
 ## Security Concepts Covered
 
 * Password Security
 * Cryptographic Hashing
-* Secure Storage
 * Entropy Analysis
+* Secure Password Storage
 * Password Reuse Prevention
-=======
-# Password-Strength-Analyzer
-Python-based Password Strength Analyzer with entropy analysis, SHA-256 hashing, and SQLite password reuse detection.
->>>>>>> ad18c658aeb0d367be0fa84fda6d71b4ed1ef739
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run:
+
+python main.py
+
+## Author
+
+T.Santhu Bhoomika 
